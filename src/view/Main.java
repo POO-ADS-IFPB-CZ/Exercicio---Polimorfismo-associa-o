@@ -6,6 +6,7 @@ import model.Endereco;
 import model.PessoaFisica;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,6 +26,14 @@ public class Main {
 
         System.out.println(contaCorrente.getSaldo());
 
+//        //Para ajudar com as datas
+//        DateTimeFormatter formatter = DateTimeFormatter
+//                .ofPattern("dd/MM/yyyy");
+//        String string = "29/02/2000";
+//        //Ler
+//        LocalDate localDate = LocalDate.parse(string, formatter);
+//        //Escrever
+//        System.out.println(localDate.format(formatter));
 
     }
 }
